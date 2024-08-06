@@ -1,0 +1,26 @@
+{
+  "name": "Jupyter Notebook DevContainer",
+  "build": {
+      "dockerfile": "Dockerfile",
+      "context": ".."
+  },
+  "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash",
+          "python.pythonPath": "/usr/local/bin/python",
+          "jupyter.jupyterServerType": "local",
+          "jupyter.notebookFileRoot": "${workspaceFolder}",
+          "jupyter.interactiveWindowMode": "perFile",
+          "jupyter.kernelPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+          "ms-python.python",
+          "ms-toolsai.jupyter"
+      ],
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli": {}
+  }
+}
