@@ -61,7 +61,7 @@ pandocfilters==1.5.1
 parso==0.8.4
 pexpect==4.9.0
 platformdirs==4.3.6
-prometheus_client==0.20.0
+prometheus_client==0.21.0
 prompt_toolkit==3.0.47
 psutil==6.0.0
 ptyprocess==0.7.0
