@@ -1,5 +1,5 @@
 # ベースイメージとしてPythonを使用
-FROM python:3.15.0a7-bookworm
+FROM python:3.15.0a8-bookworm
 COPY . .
 
 # Jupyter Notebookをインストール
