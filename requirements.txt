@@ -68,7 +68,7 @@ ptyprocess==0.7.0
 pure_eval==0.2.4
 pycparser==3.11
 Pygments==2.21.0
-python-dateutil==2.9.0.post0
+python-dateutil==3.0.0
 python-json-logger==4.2.0
 pytz==2026.5
 PyYAML==6.0.3
